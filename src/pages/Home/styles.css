@@ -7,16 +7,11 @@
 .home-card {
   display: flex;
   flex-direction: column-reverse;
-  border-radius: 10px;
 }
 
 .second-card-form p{
     font-size: 0.9em;
     margin-bottom: 0px;
-}
-
-.btn{
-  align-items: center;
 }
 
 .home-content-container {
@@ -36,7 +31,7 @@
 
 .home-content-container h1{
     width: 302px;
-    font-size: 1.3em;
+    font-size: 1.13em;
     color: #fff;
 }
 
@@ -51,7 +46,7 @@
 }
 
 .home-image-container svg{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -68,11 +63,10 @@
 
     .home-content-container p{
         width: 506px;
-        margin-bottom: 20px;
     }
 
     .home-image-container svg{
-        width: 506px;
+        width: 450px;
     }
 
     .second-card-container{
@@ -96,26 +90,28 @@
     }
 
     @media(min-width: 992px){
-        .home-image-container{
-            padding: 125px 20px;
-        }
+
         .home-content-container {
             padding: 20px 20px 150px 20px ;
         }
+
         .home-container {
             font-size: 50px;
             padding: 40px;
         }
 
+        .second-card-container{
+            font-size: 30px;
+        }
+
         .home-content-container h1{
-            font-size: 45px;
+            font-size: 42px;
             margin-bottom: 8px;
             width: 700px;
         }
         
         .home-content-container p{
-            font-size: 30px;
-            margin-bottom: 47px;
+            font-size: 28px;
             width: 700px;
         }
 
@@ -124,15 +120,29 @@
         .home-card {
             flex-direction: row;
             justify-content: space-around;
+            align-items: center;
             margin-left: 70px;
             margin-right: 70px;
-            padding: calc(((85vh - 480px) / 2) - 70px);
+            padding: calc(((85vh - 480px) / 2) - 100px);
         }
 
-        .btn{
-            align-items: left;
-            padding-left: 55px;
-          }
+        .home-content-container {
+            align-items: flex-start;
+            text-align: left;
+            align-content: space-between;
+            flex-flow: wrap;
+            padding: 90px 0 90px 50px;
+            flex-direction: row;
+        }
+
+        .home-image-container{
+            display: flex;
+            padding: 0 30px 0 0;
+        }
+        
+        .home-image-container svg{
+            width: 200%;
+        }
 
         .second-card-form {
             margin-left: 70px;
@@ -141,27 +151,11 @@
 
         .second-card-container{
             justify-content: flex-start;
-            padding: 40px 0px 40px 0px;
-            font-size: 30px;
+            padding: 35px 0px 35px 0px;
         }
 
-        .home-content-container {
-            align-items: flex-start;
-            text-align: left;
-            align-content: space-between;
-            flex-flow: wrap;
-            padding: 90px 40px;
-            flex-direction: column;
-        }
-
-        .home-image-container{
-            display: flex;
-            align-items: center;
-            padding: 30px;
-        }
-        
-        .home-image-container svg{
-            width: 150%;
+        .btn{
+            padding-left: 55px;
         }
     }
 }

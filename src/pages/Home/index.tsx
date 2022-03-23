@@ -26,7 +26,7 @@ function Home() {
       <div className="second-card second-card-form">
       <div className="second-card-container">
         <div className="btn"> 
-        <ButtonIcon /> 
+        <Link to="/products"> <ButtonIcon /> </Link>
         </div>
         <div>
           <p>Comece agora a navegar.</p>
