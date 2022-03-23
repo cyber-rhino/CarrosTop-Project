@@ -11,7 +11,7 @@
 }
 
 .second-card-form p{
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-bottom: 0px;
 }
 
@@ -142,7 +142,7 @@
         .second-card-container{
             justify-content: flex-start;
             padding: 40px 0px 40px 0px;
-            font-size: 35px;
+            font-size: 30px;
         }
 
         .home-content-container {
@@ -157,11 +157,11 @@
         .home-image-container{
             display: flex;
             align-items: center;
-            padding: 20px;
+            padding: 30px;
         }
         
         .home-image-container svg{
-            width: 120%;
+            width: 150%;
         }
     }
 }
