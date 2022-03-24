@@ -1,3 +1,11 @@
+# Prévia do Projeto App
+
+### Página Home nas dimensões de desktop à smartphone
+#### Widths:
+#### `320px` `576px` `768px` `992px` `1200px`
+
+![gif-home-carrostop](https://user-images.githubusercontent.com/63430363/159813073-c0aa57db-5437-45d7-a7a3-62af461ad44b.gif)
+
 # Introdução ao Create React App
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
