@@ -12,14 +12,9 @@ padding-left: 40px;
     font-size: 18px;
 }
 
-.navbar-collapse{
-    display: flex;
-    justify-content: flex-end;
-}
-
 .main-menu a{
     color: #00285F;
-    padding: 0 20px 0 20px;
+    padding: 0 15px 0 0;
 }
 
 .main-menu:hover{
@@ -29,4 +24,11 @@ padding-left: 40px;
 .main-menu a.active{
     color: #00285F;
     font-weight: 700;
+}
+
+@media (min-width: 768px){
+    .navbar-collapse{
+        display: flex;
+        justify-content: flex-end;
+    }
 }
