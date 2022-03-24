@@ -12,7 +12,7 @@ function ProductCard() {
                 <h6>Audi Supra TT</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
                 <div className="btn2-container">
-                    <button className="btn2 btn2-icon">
+                    <button className="btn2">
                         <h5>Comprar</h5>
                     </button>
                 </div>
