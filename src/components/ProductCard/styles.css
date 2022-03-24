@@ -11,13 +11,15 @@
     height: 100%;
 }
 
-.card-bottom-container button{
+.btn2-container{
+    display: flex;
     justify-content: center;
 }
 
 .card-bottom-container h6{
     text-align: center;
     color: #000;
+    font-size: 18px;
 }
 
 .card-bottom-container p{
@@ -29,15 +31,11 @@
 
 .btn2-container button{
     height: 40px;
-    padding: 10px 30px;
     background: #00285F;;
     border-radius: 5px;
     width: 240px;
     width: 85%;
-    height: auto;
 }   
-
-
 
 .btn2-container h5{
     color: #FFF;
@@ -48,5 +46,5 @@
 .btn2 {
     height: auto;
     width: auto;
-    margin: 0 0 20px 20px;
+    margin: 0 0 20px ;
 }
