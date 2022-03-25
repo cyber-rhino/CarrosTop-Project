@@ -1,0 +1,73 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.btn-card {
+    background: #e1e1e1;
+    border-radius: 10px;
+    padding: 40px 0 40px 0;
+}
+
+.btn-1 button {
+    background-color: #fff;
+    height: 40px;
+    width: 199px;
+    border-radius: 5px 0 0 5px;
+    border: solid 1px #fff;
+}
+
+.btn-1 h5 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8px;
+    font-size: 14px;
+    color: #b1b1b1;
+    font-weight: 400;
+}
+
+.btn-2 button{
+    height: 40px;
+    width: 77px;
+    font-weight: 700;
+    background: #00285F;
+    border-radius: 0 5px 5px 0;
+    border: solid 1px #00285F;
+}
+
+.btn-2 h5{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.second-card-forma {
+    margin-bottom: 25px;
+}
+
+@media(min-width: 576px) {
+    .btn-1 button {
+        width: 300px;
+    }
+    
+    .btn-2 button{
+        width: 174px;
+    }
+}
+
+@media(min-width: 768px) {
+    .btn-1 button {
+        width: 460px;
+    }
+    
+    .btn-2 button{
+        width: 174px;
+    }
+}
+
+@media(min-width: 992px) {
+    .btn-1 button {
+        width: 584px;
+    }
+}
