@@ -37,7 +37,7 @@
 .btn2-container button {
   height: 40px;
   background: #00285f;
-  border-color: #00285f;
+  border: #00285f;
   border-radius: 5px;
   width: 85%;
 }

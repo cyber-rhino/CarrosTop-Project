@@ -2,13 +2,13 @@ import "./styles.css";
 
 function ButtonIcon() {
   return (
-    <div className="btn-container">
+    <div className="btn-home-container">
 
-        <button className="btn btn-icon">
+        <button className="btn-home btn-home-icon">
           <h6>Ver Catálogo</h6>
         </button>
         
-      <div className="btn-icon-container">
+      <div className="btn-home-icon-container">
       </div>
     </div>
   );
