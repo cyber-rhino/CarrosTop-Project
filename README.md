@@ -10,7 +10,7 @@
 #### Widths:
 #### `320px` `576px` `768px` `992px` `1200px`
 
-![gif-catalog-carrostop](https://user-images.githubusercontent.com/63430363/160140009-33e6bc5c-cfdc-41a9-8e73-88571003388a.gif)
+![gif-catalog-carrostop](https://user-images.githubusercontent.com/63430363/160507267-9c22b64b-5e46-4024-a49d-93f855af5125.gif)
 
 # Introdução ao Create React App
 
